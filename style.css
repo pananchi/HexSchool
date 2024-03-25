@@ -51,10 +51,7 @@ table {
 .wrap{
     width: 1920px;
     margin: 0 auto;
-}
-
-li,a,h2,p,li{
-    font-family: "noto sans tc", sans-serif;
+    font-family: "微軟正黑體", sans-serif;
 }
 
 .header{
@@ -144,14 +141,14 @@ li,a,h2,p,li{
 .topmenu li a{
     display: block;
     font-size: 16px;
-    color: #000;
+    color: #00251A;
     text-decoration: none;
     padding: 15px 10px 15px 10px;
     font-weight: 600;
 }
 
 .topmenu li a:hover{
-    border-bottom: 3px solid #42d3a9;
+    border-bottom: 3px solid #00CC99;
     padding-bottom: 12px;
 }
 
@@ -233,4 +230,45 @@ li,a,h2,p,li{
 
 .course-item:hover{
     box-shadow: 2px 2px 15px #00000060;
+}
+
+.coursetable{
+    width: 920px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.coursetable h4{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+
+}
+
+table thead th{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    background: #cccccc67;
+    text-align: left;
+}
+
+tbody td{
+    font-size: 16px;
+    padding: 8px 20px 8px 20px;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: left;
+}
+
+table tbody tr:hover{
+    background: #E4FFF8;
 }
