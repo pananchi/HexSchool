@@ -144,9 +144,10 @@ li,a,h2,p,li{
 .topmenu li a{
     display: block;
     font-size: 16px;
-    color: #42d3a9;
+    color: #000;
     text-decoration: none;
     padding: 15px 10px 15px 10px;
+    font-weight: 600;
 }
 
 .topmenu li a:hover{
