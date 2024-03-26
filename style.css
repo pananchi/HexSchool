@@ -256,8 +256,6 @@ table thead th{
     font-size: 16px;
     font-weight: 600;
     padding: 8px 20px 8px 20px;
-    border-top: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
     background: #cccccc67;
     text-align: left;
 }
@@ -272,3 +270,10 @@ tbody td{
 table tbody tr:hover{
     background: #E4FFF8;
 }
+
+.service{
+    background: linear-gradient(#E4FFF8,#A2DDCE);
+    padding: 50px;
+    /* margin: 0 auto; */
+}
+
