@@ -274,6 +274,106 @@ table tbody tr:hover{
 .service{
     background: linear-gradient(#E4FFF8,#A2DDCE);
     padding: 50px;
-    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.service h5{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+#info{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-left{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-right: 15px;
+    color: #00251A;
+}
+
+.info-left input{
+    width: 351px;
+    height: 38px;
+    margin: 8px 0px 15px 0px ;
+    border-radius: 3px;
+    border: 1px solid #AAAAAA;
+}
+
+.info-right{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-left: 15px;
+    color: #00251A;
+}
+
+.info-right textarea{
+    width: 350px;
+    height: 200px;
+    margin: 8px 0px;
+    border-radius: 3px;
+    border: 1px solid #AAAAAA;
+    resize: none;
+}
+
+.btn{
+    width: 159px;
+    height: 38px;
+    background: #00251A;
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background: #FFF;
+    border: 2px solid #00251A;
+    color: #00251A;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding-right: 404px;
+    padding-left: 404px;
+}
+
+.footer h1{
+    float: left;
+}
+
+.footer h1 a{
+    display: block;
+    background-image: url(images/logo.png);
+    width: 224px;
+    height: 50px;
+    text-indent: 101% ;
+    overflow: hidden;
+    white-space:nowrap;
+    margin-bottom: 20px;
+    
+}
+
+.footer-info{
+    float: right;
+} 
+
+.footer-info li{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
