@@ -173,9 +173,10 @@ table {
 .banner-text p{
     font-size: 36px;
     font-weight: 700;
-    margin-left: 498px;
+    margin: 0px 24%;
     letter-spacing: 1px;
     line-height: 43.2px;
+    vertical-align:middle;
     color: #1E1E1E;
 }
 
@@ -294,8 +295,6 @@ table tbody tr:hover{
 }
 
 .info-left{
-    display: flex;
-    flex-direction: column;
     font-size: 16px;
     margin-right: 15px;
     color: #00251A;
@@ -309,8 +308,6 @@ table tbody tr:hover{
 }
 
 .info-right{
-    display: flex;
-    flex-direction: column;
     font-size: 16px;
     margin-left: 15px;
     color: #00251A;
@@ -346,16 +343,13 @@ table tbody tr:hover{
 }
 
 .footer{
+    display: flex;
+    justify-content: space-around;
     margin-top: 20px;
-    padding-right: 404px;
-    padding-left: 404px;
 }
 
-.footer h2{
-    float: left;
-}
 
-.footer h1 a{
+.footer h2 a{
     display: block;
     background-image: url(images/logo.png);
     width: 224px;
@@ -367,9 +361,6 @@ table tbody tr:hover{
     
 }
 
-.footer-info{
-    float: right;
-} 
 
 .footer-info li{
     font-size: 16px;
