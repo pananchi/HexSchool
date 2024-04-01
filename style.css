@@ -182,7 +182,7 @@ table {
 }
 
 .content{
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 50px;
     
@@ -197,7 +197,7 @@ table {
     width: 40%;
     padding-bottom: 20px;
     border-radius: 5px;
-    margin: 0px 10px;
+    margin: 0px 12px;
     box-shadow: 3px 3px 6px #00000040;
  
 }
